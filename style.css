@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.labirinto {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 90vh;
+    width: 84vw;
+    left: 8vw;
+    top: 5vh;
+    border: 3px solid white;
+}
+
+.linhas {
+    position: relative;
+    display: flex;
+    height: 6vh;
+    width: 84vw;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+.cell {
+    position: relative;
+    background-color: green;
+    height: 6vh;
+    width: 4vw;
+}
+
+.wall {
+    background-color: red;
+}
+
+.jogador {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+.victory {
+    position: absolute;
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background-color:grey;
+    color: white;
+    text-align: center;
+    line-height: 85vh;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    
+}
+    
